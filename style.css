@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+#menu ul{
+  text-align: center;
+}
+#menu ul li{
+  display: inline-block;
+  border: 2px solid #ddd;
+  width: 100px;
+  height: 100px;
+  margin: 20px 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ddd;
+  cursor: pointer;
+}
+#menu ul li.red{
+  background: #d63031;
+}
+#menu ul li.blue{
+  background: #00cec9;
+}
+#menu ul li.green{
+  background: #55efc4;
+}
+#menu ul li.purple{
+  background: #a29bfe;
+}
+#menu ul li.pink{
+  background: #ff7675;
+}
+#menu ul li.black{
+  background: #2d3436;
+}
+#details{
+  padding: 100px 20px;
+}
+#details h1{
+  text-align: center;
+}
+#details p{
+  width: 900px;
+  margin: 10px auto;
+  font-size: 20px;
+  text-wrap: wrap;
+  text-justify: auto;
+}
