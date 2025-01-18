@@ -42,18 +42,23 @@ button.forEach(function(value){
   let color = '';
   if(className === 'red'){
     color = "#d63031"
+    body.style.color = 'white'
   }
   if (className === 'blue') {
     color = '#00cec9'
+    body.style.color = 'black'
   }
   if (className === 'green') {
     color = '#55efc4'
+    body.style.color = 'black'
   }
   if (className === 'purple') {
     color = '#a29bfe'
+    body.style.color = 'black'
   }
   if (className === 'pink') {
     color = '#ff7675'
+    body.style.color = 'black'
   }
   if (className === 'black') {
     color = '#2d3436'
